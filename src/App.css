@@ -1,0 +1,95 @@
+/* src/App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: rgb(0, 0, 0);
+  font-family: 'Arial', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+input,
+button {
+  margin: 5px;
+  padding: 8px;
+  font-size: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App-header {  
+  background-color: black;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #00FF2580;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: transparent linear-gradient(180deg, #00FF2580 0%, #000000 100%, #36A54680 100%) 0% 0% no-repeat padding-box;
+mix-blend-mode: normal;
+border: 2px solid #8CFF0026;
+opacity: 1;
+}
+
+button:hover {
+  background-color: #00FF2580;
+}
+
+.img {
+  background: transparent;
+  background-color: black;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+/* Responsive styles for Android */
+@media only screen and (max-width: 412px) and (max-height: 914px) {
+  input,
+  button {
+    padding: 8px 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Responsive styles for iOS */
+@media only screen and (max-width: 390px) and (max-height: 834px) {
+  input,
+  button {
+    padding: 8px 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+/* Add styling for individual components if needed */

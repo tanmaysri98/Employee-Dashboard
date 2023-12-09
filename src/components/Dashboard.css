@@ -1,0 +1,53 @@
+/* src/components/Dashboard.css */
+
+/* Styles for the Dashboard component */
+
+.dashboard {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .h1 {
+      margin-bottom: 20px;
+      color: #fff;
+      /* Customize text color */
+      background: #1A2C2C99 0% 0% no-repeat padding-box;
+      mix-blend-mode: normal;
+      opacity: 1;
+      text-align: center;
+      letter-spacing: 0.01px;
+      color: #FFFFFFB3;
+      opacity: 0.84;
+  }
+  
+  .graph-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: auto;
+  }
+  
+  .day-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bar {
+    width: 100%; /* Adjust as needed */
+    background-color: #36a546; /* Customize bar color */
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #fff; /* Customize bar border color */
+    color: #fff; /* Customize text color */
+  }
+  
+  .userlist-btn {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff; /* Customize button background color */
+    color: #fff; /* Customize button text color */
+    border: none;
+    cursor: pointer;
+  }
+  
